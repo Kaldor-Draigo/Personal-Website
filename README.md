@@ -62,24 +62,26 @@
     some of the fictional universes that I am interested in.</h3>
   <table border="1">
 
-    <thead><th>
-      Warhammer 40,000
-      </th></thead>
-      <td><img src="warhammer-40000-logo.png" width="400" height="180" /></td>
-<td>
-  
-  </td>
+    <thead>
+      <th>
+        Warhammer 40,000
+      </th>
+    </thead>
+    <td><img src="warhammer-40000-logo.png" width="400" height="180" /></td>
+    <td>
 
+    </td>
 
     <thead>
       <th>
         Star Wars
-        </th></thead>
+      </th>
+    </thead>
 
-      <td><img src="Star-wars-logo.png" width="400" height="180" /></td>
-<td>
+    <td><img src="Star-wars-logo.png" width="400" height="180" /></td>
+    <td>
 
-  </td>
+    </td>
 
 
   </table>
