@@ -7,26 +7,39 @@
 </head>
 
 <body>
+
   <div align="CENTER">
-    <h1>Brief facts about me.</h1>
+    <h1 style="color:red">Brief facts about me.</h1>
   </div>
   <hr />
+
   <div align="CENTER">
-    <h2>Galym Tamerlan</h2>
+    <h2>
+      <font color="red">G</font>
+      <font color="orange">a</font>
+      <font color="yellow">l</font>
+      <font color="green">y</font>
+      <font color="blue">m</font>
+      <font color="indigo">T</font>
+      <font color="violet">a</font>
+      <font color="red">m</font>
+      <font color="orange">e</font>
+      <font color="yellow">r</font>
+      <font color="green">l</font>
+      <font color="blue">a</font>
+      <font color="indigo">n</font>
+    </h2>
   </div>
   <br />
-  <ul>
 
-    <p>
-      <li>I strongly welcome you visitors to my web page.</li>
-      Here you will learn about an <strong>18-year-old student</strong>
-      who is studying at <b>Astana IT University</b>
-      <li>
-
-        And currently lives with his parents in a three-room apartment.</li>
-    </p>
-
-  </ul>
+  <p>
+    I strongly welcome you visitors to my web page.
+    <br />
+    Here you will learn about an <strong>18-year-old student</strong>
+    who is studying at <b>Astana IT University</b>
+    <br />
+    And currently lives with his parents in a three-room apartment.
+  </p>
 
   <p>
     <i>My hobbies.</i>
@@ -56,6 +69,7 @@
         </li>
       </ul>
     </small>
+    <br />
 
   </p>
   <h3>Below you can see a table that contains information about
@@ -63,29 +77,180 @@
   <table border="1">
 
     <thead>
-      <th>
+      <th colspan="2">
         Warhammer 40,000
       </th>
     </thead>
     <td><img src="warhammer-40000-logo.png" width="400" height="180" /></td>
-    <td>
-
+    <td style="background-image:url(warhammer-40k-IX.png)">
+      <font color="Orange">The universe of Warhammer 40,000 is strongly dystopic,
+        using many elements from Gothic,
+        dark fantasy and Lovecraftian literature.</font>
+      <ul>
+        <li>
+          <a href="https://warhammer40k.fandom.com/wiki/Warhammer_40,000">
+            <font color="Aqua">About WH40k</font>
+          </a>
+        </li>
+        <br />
+        <font color="Yellow">Some Intersting Information:</font>
+        <li>
+          <a href="https://warhammer40k.fandom.com/wiki/Primarch">
+            <font color="Aqua">Who are Primarchs?</font>
+          </a>
+        </li>
+        <li>
+          <a href="https://warhammer40k.fandom.com/wiki/Horus_Heresy">
+            <font color="Aqua">Fratricide</font>
+          </a>
+        </li>
+      </ul>
     </td>
 
     <thead>
-      <th>
+      <th colspan="2">
         Star Wars
       </th>
     </thead>
 
     <td><img src="Star-wars-logo.png" width="400" height="180" /></td>
-    <td>
+    <td style="background-image:url(Darth_Vader.png)">
+      <font color="indigo">The saga shows an "ancient" galactic civilization thousands of years old.
+        The setting is totally unrelated to Earth, the Milky Way Galaxy or reality,
+        which gives it more liberty, in a sense.</font>
+      <ul>
+        <li>
+          <a href="https://starwars.fandom.com/wiki/Star_Wars#Setting">
+            About Star Wars</a>
+      </ul>
 
+      <font color="indigo">Some Info:</font>
+      <li>
+        <a href="https://starwars.fandom.com/wiki/Jedi">
+          Who are "Jedi"</a>
+      </li>
+      <li>
+        <a href="https://starwars.fandom.com/wiki/Sith">
+          Who are "Sith"</a>
+      </li>
     </td>
 
+    <thead>
+      <th colspan="2">
+        World of Warcraft
+      </th>
+    </thead>
+    <td>
+      <img src="WoW-logo.png" width="400" height="180" />
+    </td>
+    <td style="background-image:url(the-lich-king-wow-art.png)">
+      <font color="Aqua">The universe is designed in the fantasy style with an admixture of steampunk
+        and oriental culture. Describes the world of Azeroth,
+        which includes 4 continents, on which many races lived.</font>
+
+
+      <ul>
+        <li>
+          <a href="https://wowpedia.fandom.com/wiki/History_of_Warcraft">
+            About Warcraft</a>
+        </li>
+      </ul>
+
+      Some Information:
+      <ul>
+        <li>
+          <a href="https://wowwiki-archive.fandom.com/wiki/Azeroth">
+            Azeroth</a>
+        </li>
+        <li>
+          <a href="https://wowwiki-archive.fandom.com/wiki/The_Lich_King">
+            The Lich King</a>
+        </li>
+      </ul>
+    </td>
 
   </table>
+  <Br /><Br />
 
-  <body>
+  <p>
+    <b>Now... Say My Name.</b>
+  </p>
+  <p>
+    <input type="radio" name="answer" value="a1" />Galym Temirlan<Br />
+    <input type="radio" name="answer" value="a2" />Galym Tamerlan<Br />
+    <input type="radio" name="answer" value="a3" />Walter White<Br />
+    <input type="radio" name="answer" value="a4" />aaahh... Burger...??<Br />
+  </p>
+  <p>
+    <input type="submit" />
+  </p>
+
+  <p>
+    <b>Ok, tell me... what are my hobbies?</b>
+  </p>
+  <p>
+    <input type="checkbox" name="hobbie1" value="b1" />
+    <lable for="hobbie1">I play the guitar</lable><br />
+    <input type="checkbox" name="hobbie2" value="b2" checked />
+    <lable for="hobbie2">I wear a bat costume and I hunt criminals at night</lable><br />
+    <input type="checkbox" name="hobbie3" valye="b3" />
+    <lable for="hobbie3">I play chess</lable><br />
+    <input type="checkbox" name="hobbie4" value="b4" />
+    <lable for="hobbie4">I wear a cowboy hat and hunt monsters,and work for Vatikan</lable><br />
+    <input type="checkbox" name="hobbie5" value="b5" />
+    <lable for="hobbie5">I'm seeking a girl named "Sarah Connor"</lable><br />
+    <input type="checkbox" name="hobbie6" value="b6" />
+    <lable for="hobbie6">I hunt rare animals</lable><br />
+    <input type="checkbox" name="honnie7" value="b1" />
+    <lable for="hobbie7">I play football</lable><br /><br />
+    <input type="submit" value="Submit" />
+  </p>
+  <br /><br />
+
+  <p><strong>Below you can write your comment about this website</strong></p>
+
+  <form action="test.php" method="post" id="users">
+    <p>
+      <label>Your Name:</label>
+      <input type="text" name="name" />
+    </p>
+    <p>
+      <label>Your comment:</label>
+      <br />
+      <textarea name="text_comment" cols="150" rows="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Submit Comment" />
+    </p>
+  </form>
+  <br />
+  <br />
+
+
+  <audio id="myAudio">
+    <source src="Karajorga.mp3" type="audio/mpeg" />
+  </audio>
+
+  <p>
+    Click the buttons to play or pause the audio
+  </p>
+  <button onclick="playAudio()" type="button" style="padding: 15px; border-radius: 15px">Play Karajorga</button>
+
+  <button onclick="pauseAudio()" type="button" style="padding: 15px; border-radius: 15px">Stop Karajorga</button>
+
+  <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+      x.play();
+    }
+
+    function pauseAudio() {
+      x.pause();
+    }
+  </script>
+
+
+</body>
 
 </html>
