@@ -170,41 +170,88 @@
     </td>
 
   </table>
-<Br /><Br />
+  <Br /><Br />
 
-<p>
-  <b>Now... Say My Name.</b>
+  <p>
+    <b>Now... Say My Name.</b>
   </p>
-<p>
-  <input type="radio" name="answer" value="a1" />Galym Temirlan<Br />
-  <input type="radio" name="answer" value="a2" />Galym Tamerlan<Br />
-  <input type="radio" name="answer" value="a3" />Walter White<Br />
-  <input type="radio" name="answer" value="a4" />aaahh... Burger...??<Br />
+  <p>
+    <input type="radio" name="answer" value="a1" />Galym Temirlan<Br />
+    <input type="radio" name="answer" value="a2" />Galym Tamerlan<Br />
+    <input type="radio" name="answer" value="a3" />Walter White<Br />
+    <input type="radio" name="answer" value="a4" />aaahh... Burger...??<Br />
   </p>
   <p>
     <input type="submit" />
-    </p>
+  </p>
 
+  <p>
+    <b>Ok, tell me... what are my hobbies?</b>
+  </p>
+  <p>
+    <input type="checkbox" name="hobbie1" value="b1" />
+    <lable for="hobbie1">I play the guitar</lable><br />
+    <input type="checkbox" name="hobbie2" value="b2" checked />
+    <lable for="hobbie2">I wear a bat costume and I hunt criminals at night</lable><br />
+    <input type="checkbox" name="hobbie3" valye="b3" />
+    <lable for="hobbie3">I play chess</lable><br />
+    <input type="checkbox" name="hobbie4" value="b4" />
+    <lable for="hobbie4">I wear a cowboy hat and hunt monsters,and work for Vatikan</lable><br />
+    <input type="checkbox" name="hobbie5" value="b5" />
+    <lable for="hobbie5">I'm seeking a girl named "Sarah Connor"</lable><br />
+    <input type="checkbox" name="hobbie6" value="b6" />
+    <lable for="hobbie6">I hunt rare animals</lable><br />
+    <input type="checkbox" name="honnie7" value="b1" />
+    <lable for="hobbie7">I play football</lable><br /><br />
+    <input type="submit" value="Submit" />
+  </p>
+<br /><br />
+
+<p><strong>Below you can write your comment about this website</strong></p>
+
+<form action="test.php" method="post" id="users">
+  <p>
+      <label>Your Name:</label>
+      <input type="text" name="name" />
+    </p>
     <p>
-      <b>Ok, tell me... what are my hobbies?</b>
-      </p>
-      <p>
-        <input type="checkbox" name="hobbie1" value="b1" />
-        <lable for="hobbie1">I play the guitar</lable><br />
-        <input type="checkbox" name="hobbie2" value="b2" checked/>
-        <lable for="hobbie2">I wear a bat costume and I hunt criminals at night</lable><br />
-        <input type="checkbox" name="hobbie3" valye="b3" />
-        <lable for="hobbie3">I play chess</lable><br />
-        <input type="checkbox" name="hobbie4" value="b4" />
-        <lable for="hobbie4">I wear a cowboy hat and hunt monsters,and work for Vatikan</lable><br />
-        <input type="checkbox" name="hobbie5" value="b5" />
-        <lable for="hobbie5">I'm seeking a girl named "Sarah Connor"</lable><br />
-        <input type="checkbox" name="hobbie6" value="b6" />
-        <lable for="hobbie6">I hunt rare animals</lable><br />
-        <input type="checkbox" name="honnie7" value="b1" />
-        <lable for="hobbie7">I play football</lable><br /><br />
-        <input type="submit" value="Submit" />
-        </p>
-  <body>
+      <label>Your comment:</label>
+      <br />
+      <textarea name="text_comment" cols="150" rows="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Submit Comment" />
+    </p>
+  </form>
+<br />
+<br />
+
+
+<audio id="myAudio">
+  <source src="Karajorga.mp3" type="audio/mpeg" />
+</audio>
+
+<p>
+  Click the buttons to play or pause the audio
+</p>
+<button onclick="playAudio()" type="button" style="padding: 15px; border-radius: 15px">Play Karajorga</button>
+
+<button onclick="pauseAudio()" type="button" style="padding: 15px; border-radius: 15px">Stop Karajorga</button>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
+
+</script>
+
+
+</body>
 
 </html>
